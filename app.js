@@ -32,6 +32,7 @@ import ParagraphButtonUI from '@ckeditor/ckeditor5-paragraph/src/paragraphbutton
 //Other
 
 import InlineItems from './src/InlineItems.js';
+import IndentTextPlugin from 'ckeditor5-indent-text/src/indent-text'
 
 window.IncCKEditorFeatures = {
     //The editor
@@ -57,5 +58,6 @@ window.IncCKEditorFeatures = {
     HeadingButtonsUI,
     ParagraphButtonUI,
     //Other
-    InlineItems
+    InlineItems,
+    IndentTextPlugin
 }
